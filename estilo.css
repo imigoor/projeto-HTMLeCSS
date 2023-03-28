@@ -1,0 +1,132 @@
+/* Limpar formatações padrão */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* corpo todo do site */
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff;
+}
+
+/* 
+***** Layout *****
+*/
+/* parte do cabeçalho (menu) */
+#area-cabecalho {
+    background-color: #F7B600;
+    padding: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* configuração do cabeçalho */
+#area-logo {
+    font-size: 2em;
+    padding: 15px;
+    color: #4e4e4e;
+}
+
+#area-menu {
+    font-size: 1.1em;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.postagem-lateral {
+    background: white;
+    padding: 10px;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both; 
+    text-align: center; 
+    padding: 15px;  
+    background: #CCC;
+}
+
+/* menu */
+#area-cabecalho a {
+    text-decoration: none;
+    padding: 15px;
+    color: #ffffff;
+    transition: 0.5s; /* transição (tempo) que animação será feita */
+}
+
+/* animação quando cursor do mouse passar */
+#area-cabecalho a:hover { 
+    color: #F7B600;
+    background: #ffffff;
+    border-radius: 30px;
+}
+
+/*
+****** Formatações em geral ******
+*/
+h2 {
+    color: #F7B600;
+}
+
+/* Cor dividida no elemento logo "Tecblog"*/
+.branco {
+    color: #fff;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #fff;
+    background: #F7B600;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+hr {
+    margin: 10px 0px;
+}
+
+.data-postagem {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #F7B600;
+}
+
+.menu-lateral a {
+    margin: 5px 0px;
+    display: block;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#rodape {
+    font-size: 1.2em;
+}
